@@ -87,7 +87,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'backend.wsgi.application'
 
 # ======================
-# DATABASE MYSQL
+# DATABASE POSTGRRESQL OF NEON
 # ======================
 
 DATABASES = {
@@ -132,5 +132,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOW_ALL_ORIGINS = False
 
 CORS_ALLOWED_ORIGINS = [
-    "https://blog-front-pve5.onrender.com",
+    "https://fpc-global.org",
 ]
