@@ -12,11 +12,11 @@ class ArticlesConfig(AppConfig):
         try:
             if not User.objects.filter(username="admin").exists():
                 User.objects.create_superuser(
-                    username="admin",
+                    username="Kibangoud12345",
                     email="admin@gmail.com",
-                    password="admin123"
+                    password="Mboungou12"
                 )
-                print("Superuser par défaut créé : admin/admin123")
+                print("Superuser par défaut créé : Kibangoud12345/Mboungou12")
         except Exception as e:
             # Par exemple, si migrate n'a pas encore été fait, on ignore
             pass
